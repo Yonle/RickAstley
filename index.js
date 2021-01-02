@@ -12,7 +12,7 @@ if (message.content.startsWith(`<@${bot.user.id}>`)||message.content.startsWith(
  if (!message.member.voice.channel) return;
   var voice =  message.member.voice.channel
   voice.join().then(connection => {
-  connection.play(createReadStream("NeverGonnaGiveYouUp.opus")).on("finish", () => voice.leave());
+  connection.play(createReadStream("NeverGonnaGiveYouUp.opus")).on("finish", voice.leave);
  }).catch(console.error);
 }
 });
