@@ -1,0 +1,18 @@
+{
+  "name": "RickAshley",
+  "version": "1.0.0",
+  "description": "A simple RickRoll Discord bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Yonle",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "opusscript": "0.0.7"
+  }
+}
