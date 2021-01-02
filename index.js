@@ -8,7 +8,7 @@ bot.on("ready", () => {
   bot.user.setActivity("Never gonna give you up");
 });
 bot.on("message", message => {
-if (message.content.startsWith(`<@${bot.user.id}>`)) {
+if (message.content.startsWith(`<@${bot.user.id}>`)||message.content.startsWith(`<@!${bot.user.id}>`)) {
  if (!message.member.voice.channel) return;
   var voice =  message.member.voice.channel
   voice.join().then(connection => {
