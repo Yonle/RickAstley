@@ -1,10 +1,10 @@
-# RickAshley
+# RickAstley
 A simple RickRoll Discord bot.
 
 ## Get Started
 ```bash
-git clone https://github.com/yonle/RickAshley.git
-cd RickAshley
+git clone https://github.com/yonle/RickAstley.git
+cd RickAstley
 npm install
 ```
 ## Setup your bots
